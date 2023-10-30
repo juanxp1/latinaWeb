@@ -15,6 +15,7 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const Home = () => {
   return (
     <Container>
+      	<a href="https://wa.me/573208294033?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" className="whatsapp" target="_blank"> <i className="fa fa-whatsapp whatsapp-icon"></i></a>
       <ScrollToTop />
       <ContentBlock
         type="right"
