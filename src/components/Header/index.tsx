@@ -65,8 +65,8 @@ const Header = ({ t }: any) => {
           <LogoContainer to="/" aria-label="homepage">
             {/* <SvgIcon src="logo.svg" width="101px" height="64px" /> */}
             <h4>
-            Latina Web
-          </h4>
+              Latina Web
+            </h4>
           </LogoContainer>
           <NotHidden>
             <MenuItem />
