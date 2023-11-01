@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Tú web === a tú modelo de negocio",
+  "text": "Realizamos tu web desde $20 USD más el dominio que desees incluir. Cuentanos más sobre tu modelo de negocio, bien sea Tienda en linea, Ecommerce, Portafolio de personal, profesional o de servicos, menu´s para restaurantes en linea o QR y nosotros hacemos el resto.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "¿Por que Latina Web?",
+      "content": " Ofrecemos diseños web personalizados que se adapten a las necesidades y la identidad de tu negocio, ayudandolos a destacar en línea.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "SEO y Visibilidad en Línea",
+      "content": "Nuestros clientes pueden concentrarse en su negocio principal mientras nosotros nos encargamos de tú presencia en línea.",
       "icon": "notes.svg"
     }
   ]
