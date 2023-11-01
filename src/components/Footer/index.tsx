@@ -51,13 +51,13 @@ const Footer = ({ t }: any) => {
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
+              <Language>{t("Contactos")}</Language>
               <Large to="/">{t("Tell us everything")}</Large>
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="latinawebsite@gmail.com">
+                <Chat>{t(`Hablemos por Telegram`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
@@ -72,10 +72,10 @@ const Footer = ({ t }: any) => {
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
               <Large left="true" to="/">
-                {t("Support Center")}
+                {t("Asesor center")}
               </Large>
               <Large left="true" to="/">
-                {t("Customer Support")}
+                {t("Asesoria del cliente")}
               </Large>
             </Col>
           </Row>
@@ -103,8 +103,8 @@ const Footer = ({ t }: any) => {
               </Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
+              {/* <Label htmlFor="select-lang">{t("Language")}</Label> */}
+              {/* <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
                   <SvgIcon
                     src="united-states.svg"
@@ -121,7 +121,7 @@ const Footer = ({ t }: any) => {
                     height="30px"
                   />
                 </LanguageSwitch>
-              </LanguageSwitchContainer>
+              </LanguageSwitchContainer> */}
             </Col>
           </Row>
         </Container>
