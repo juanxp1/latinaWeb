@@ -83,9 +83,9 @@ const Footer = ({ t }: any) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>B/ Villa Alsacia-Kennedy</Para>
+              <Para>Cl 12A #71C-61</Para>
+              <Para>Bogotá, Colombia</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
@@ -146,7 +146,7 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="#"
+                href="https://github.com/juanxp1/latinaWeb"
                 src="github.svg"
               />
               <SocialLink
@@ -154,7 +154,7 @@ const Footer = ({ t }: any) => {
                 src="twitter.svg"
               />
               <SocialLink
-                href="#"
+                href="https://www.linkedin.com/in/ericks-jes%C3%BAs-espinoza-g%C3%B3mez-58b9b8231/"
                 src="linkedin.svg"
               />
             </FooterContainer>
