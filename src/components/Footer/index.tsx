@@ -48,6 +48,7 @@ const Footer = ({ t }: any) => {
   return (
     <>
       <FooterSection>
+<<<<<<< HEAD
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
@@ -125,6 +126,8 @@ const Footer = ({ t }: any) => {
             </Col>
           </Row>
         </Container>
+=======
+>>>>>>> a34e224fd8afb27d1731b272a5881400e47b10ae
       </FooterSection>
       <Extra>
         <Container border={true}>
