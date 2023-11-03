@@ -1,3 +1,4 @@
+import React from "react";
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../common/SvgIcon";
@@ -13,7 +14,6 @@ import {
   Para,
   Large,
   Chat,
-  Empty,
   FooterContainer,
   Language,
   Label,
@@ -48,17 +48,14 @@ const Footer = ({ t }: any) => {
   return (
     <>
       <FooterSection>
-<<<<<<< HEAD
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contactos")}</Language>
               <Large to="/">{t("Tell us everything")}</Large>
-              <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
-              </Para>
-              <a href="latinawebsite@gmail.com">
-                <Chat>{t(`Hablemos por Telegram`)}</Chat>
+              <Para>{t("Do you have any question? Feel free to reach out.")}</Para>
+              <a href="mailto:latinawebsite@gmail.com">
+                <Chat>{t("Hablemos por Telegram")}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
@@ -71,7 +68,6 @@ const Footer = ({ t }: any) => {
               </Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
               <Large left="true" to="/">
                 {t("Asesor center")}
               </Large>
@@ -82,7 +78,6 @@ const Footer = ({ t }: any) => {
           </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
               <Language>{t("Address")}</Language>
               <Para>B/ Villa Alsacia-Kennedy</Para>
               <Para>Cl 12A #71C-61</Para>
@@ -103,31 +98,8 @@ const Footer = ({ t }: any) => {
                 {t("Careers & Culture")}
               </Large>
             </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              {/* <Label htmlFor="select-lang">{t("Language")}</Label> */}
-              {/* <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer> */}
-            </Col>
           </Row>
         </Container>
-=======
->>>>>>> a34e224fd8afb27d1731b272a5881400e47b10ae
       </FooterSection>
       <Extra>
         <Container border={true}>
@@ -137,14 +109,6 @@ const Footer = ({ t }: any) => {
             style={{ paddingTop: "3rem" }}
           >
             <NavLink to="/">
-              {/* <LogoContainer>
-                <SvgIcon
-                  src="logo.svg"
-                  aria-label="homepage"
-                  width="101px"
-                  height="64px"
-                />
-              </LogoContainer> */}
               <h1>Latina Web</h1>
             </NavLink>
             <FooterContainer>
@@ -152,10 +116,7 @@ const Footer = ({ t }: any) => {
                 href="https://github.com/juanxp1/latinaWeb"
                 src="github.svg"
               />
-              <SocialLink
-                href="#"
-                src="twitter.svg"
-              />
+              <SocialLink href="#" src="twitter.svg" />
               <SocialLink
                 href="https://www.linkedin.com/in/ericks-jes%C3%BAs-espinoza-g%C3%B3mez-58b9b8231/"
                 src="linkedin.svg"
@@ -169,3 +130,4 @@ const Footer = ({ t }: any) => {
 };
 
 export default withTranslation()(Footer);
+
