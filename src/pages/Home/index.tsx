@@ -5,6 +5,7 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import QRCode from "./../../qr/qr";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -17,6 +18,7 @@ const Home = () => {
     <Container>
       	<a href="https://wa.me/573208294033?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" className="whatsapp" target="_blank"> <i className="fa fa-whatsapp whatsapp-icon"></i></a>
       <ScrollToTop />
+
       <ContentBlock
         type="right"
         title={IntroContent.title}
@@ -30,6 +32,7 @@ const Home = () => {
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       />
+    
       <ContentBlock
         type="left"
         title={AboutContent.title}
@@ -56,7 +59,9 @@ const Home = () => {
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
+        
       />
+        <QRCode/>
     </Container>
   );
 };
