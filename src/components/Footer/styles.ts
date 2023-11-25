@@ -107,10 +107,16 @@ export const FooterContainer = styled("div")`
   }
 
   @media screen and (max-width: 769px) {
-    width: auto;
+    width: 100%;
+    flex-direction: flex;
+    align-items: center;
 
-    a:not(:last-child) {
-      display: none;
+    a {
+      margin-bottom: 10px;
+    }
+
+    div {
+      margin-right: 0;
     }
   }
 
@@ -125,6 +131,7 @@ export const FooterContainer = styled("div")`
     }
   }
 `;
+
 
 export const Language = styled("h4")`
   font-size: 22px;
