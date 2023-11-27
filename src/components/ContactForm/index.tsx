@@ -25,7 +25,9 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
   };
 
   return (
-    <ContactContainer id={id}>
+    <ContactContainer id={id} >
+      <p className="bg-warning">Inhabilitado temporalmente el formulario, disculpe la molestias</p>
+      <p className="bg-info">Nos puedes contactar via whatsapp y te responderemos a la brevedad </p>
       <Row justify="space-between" align="middle">
         <Col lg={12} md={11} sm={24} xs={24}>
           <Slide direction="left">

@@ -4,6 +4,7 @@ import { withTranslation } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
+import Logo from '../../img/logo.png'
 import {
   HeaderSection,
   LogoContainer,
@@ -63,10 +64,7 @@ const Header = ({ t }: any) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            {/* <SvgIcon src="logo.svg" width="101px" height="64px" /> */}
-            <h4>
-              Latina Web
-            </h4>
+            <img src={Logo} />
           </LogoContainer>
           <NotHidden>
             <MenuItem />

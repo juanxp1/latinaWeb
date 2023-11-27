@@ -4,6 +4,7 @@ import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../common/SvgIcon";
 import QRCode from '../../qr/qr';
 import Container from "../../common/Container";
+import Logo from '../../img/logo.png'
 
 import i18n from "i18next";
 import {
@@ -53,11 +54,11 @@ const Footer = ({ t }: any) => {
           <Row
             justify="space-between"
             align="middle"
-            style={{ paddingTop: "3rem" }}
+            style={{ paddingTop: "1rem" }}
           >
-            <NavLink to="/">
-              <h1>Latina Web</h1>
-            </NavLink>
+            <a href="/" className="w-25">
+              <img className="w-50" src={Logo} alt="Logo" />
+            </a>
             <FooterContainer>
               <SocialLink
                 href="https://github.com/juanxp1/latinaWeb"
@@ -68,8 +69,8 @@ const Footer = ({ t }: any) => {
                 href="https://www.linkedin.com/in/ericks-jes%C3%BAs-espinoza-g%C3%B3mez-58b9b8231/"
                 src="linkedin.svg"
               />
+              {/* <QRCode /> */}
             </FooterContainer>
-            <QRCode />
           </Row>
         </Container>
       </Extra>

@@ -13,6 +13,15 @@ export const HeaderSection = styled("header")`
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  width: auto;
+  height: 100px;
+  margin: 0;
+  padding:0;
+
+  @media(max-width:768px){
+    margin-top: 0;
+    height: 100px;
+  }
 `;
 
 export const NavLink = styled("div")`
