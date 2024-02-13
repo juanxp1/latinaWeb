@@ -3,7 +3,8 @@
   "text": "  Nuestra visión es liderar la transformación digital al proporcionar soluciones tecnológicas de vanguardia que impulsen el éxito de nuestros clientes.",
   "button": [
     {
-      "title": "Explorar"
+      "title": "Explorar",
+      "color": "#fff"
     },
     {
       "title": "Leer más",
